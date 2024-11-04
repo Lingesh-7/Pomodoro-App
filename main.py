@@ -88,7 +88,7 @@ la1=Label(text="TIMER",fg=GREEN,bg=YELLOW,font=(FONT_NAME,50,"bold"))
 la1.grid(column=1,row=0)
 
 camva=Canvas(width=200,height=224,bg=YELLOW, highlightthickness=0)
-img=PhotoImage(file=r"C:\Users\linge\Desktop\python 100 days\projects\pr-28\tomato.png")
+img=PhotoImage(file="tomato.png")
 camva.create_image(100,112,image=img)
 timertxt=camva.create_text(103,130,text="00:00",font=(FONT_NAME,35,"bold"),fill="white")
 camva.grid(column=1,row=1)
